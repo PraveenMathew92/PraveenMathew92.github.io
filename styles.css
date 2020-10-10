@@ -1,8 +1,12 @@
 .profile-pic {
     border-radius: 200px;
-    width: 10vw;
+    width: 15vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vw;
+}
+
+html{
+    background-image: linear-gradient(#777773, white);
 }
