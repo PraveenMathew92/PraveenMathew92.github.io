@@ -1,12 +1,46 @@
+html{
+    background-image: linear-gradient(#00859c, white);
+}
+
 .profile-pic {
-    border-radius: 200px;
+    border-radius: 7vw;
     width: 15vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vw;
+    margin-top: 6vw;
 }
 
-html{
-    background-image: linear-gradient(#777773, white);
+.fa {
+    border-radius: 2vw;
+    width: 2vw;
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-medium {
+    background-color: #00AB6C;
+    color: white;
+}
+
+.fa-github {
+    background-color: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0e76a8;
+    color: white;
+}
+
+.name-bar {
+    text-align: center;
+    font-size: 5vw;
 }
