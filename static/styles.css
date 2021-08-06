@@ -1,6 +1,14 @@
+@import "footer.css";
+
 html{
     background-image: linear-gradient(#00859c, white);
     background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: auto 0px 0px 0px;
 }
 
 .profile-pic {
@@ -10,69 +18,26 @@ html{
     margin-left: auto;
     margin-right: auto;
     margin-top: 6vw;
-    min-height: 10vw;
-}
-
-.social-links > .fa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2em;
-    width: 2em;
-    font-size: 1em;
-    height: 2em;
-    margin: 0 0.5em;
-    box-shadow: white 0px 2px 0px 0px;
-}
-
-.social-links > .fa:hover {
-    border-radius: 2.5em;
-    width: 3em;
-    height: 3em;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-medium {
-    background-color: #00AB6C;
-    color: white;
-}
-
-.fa-github {
-    background-color: black;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #0e76a8;
-    color: white;
+    min-height: 131px;
+    min-width: 131px;
 }
 
 .name-bar {
     text-align: center;
-    font-size: 10vw;
+    font-size: 2em;
 }
 
-.social-links {
+.about-me {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(17, 16, 16, 0.85);
-    padding: 5vh;
-    height: 3em;
+    font-style: italic;
+    text-align: center;
+    padding: 2vh 10vw;
 }
 
-@media(max-width: 330px) {
-    .social-links {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .social-links > .fa {
-        margin: 3vh;
+@media (max-width: 1000px) {
+    .name-bar {
+        text-align: center;
+        font-size: 10vw;
     }
 }
 
@@ -85,13 +50,4 @@ html{
 #toggle-left-nav {
     background-color: transparent;
     border-color: turquoise;
-}
-
-footer {
-    display: block;
-    align-items: center;
-    position: absolute;
-    bottom: 0vh;
-    left: 0vh;
-    width: 100%;
 }
