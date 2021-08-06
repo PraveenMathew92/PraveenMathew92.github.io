@@ -13,7 +13,7 @@ html{
     min-height: 10vw;
 }
 
-.fa {
+.social-links > .fa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,9 +22,10 @@ html{
     font-size: 1em;
     height: 2em;
     margin: 0 0.5em;
+    box-shadow: white 0px 2px 0px 0px;
 }
 
-.fa:hover {
+.social-links > .fa:hover {
     border-radius: 2.5em;
     width: 3em;
     height: 3em;
@@ -59,6 +60,38 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(17, 16, 16, 0.85);
+    padding: 5vh;
+    height: 3em;
+}
+
+@media(max-width: 330px) {
+    .social-links {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .social-links > .fa {
+        margin: 3vh;
+    }
+}
+
+@media(min-width: 700px) {
+    #toggle-left-nav {
+        display: none;
+    }
+}
+
+#toggle-left-nav {
+    background-color: transparent;
+    border-color: turquoise;
+}
+
+footer {
+    display: block;
+    align-items: center;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vh;
+    width: 100%;
 }
