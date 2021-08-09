@@ -20,6 +20,7 @@ footer {
     border-radius: 2.5em;
     width: 3em;
     height: 3em;
+    color: white;
 }
 
 .fa-twitter {
@@ -51,7 +52,7 @@ footer {
     height: 3em;
 }
 
-@media (min-height: 700px) and (min-width: 400px){
+@media (min-height: 800px) and (min-width: 400px){
     footer {
         position: fixed;
         bottom: 0vh;
@@ -67,5 +68,11 @@ footer {
 
     .social-links > .fa {
         margin: 3vh;
+    }
+
+    .social-links > .fa:hover  {
+        border-radius: 2em;
+        width: 2em;
+        height: 2em;
     }
 }

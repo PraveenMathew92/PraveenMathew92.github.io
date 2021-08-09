@@ -1,12 +1,9 @@
 @import "footer.css";
 
-html{
+body {
+    height: 100%;
     background-image: linear-gradient(#00859c, white);
     background-repeat: no-repeat;
-    height: 100%;
-}
-
-body {
     height: 100%;
     margin: auto 0px 0px 0px;
 }
@@ -18,6 +15,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6vw;
+    margin-bottom: 6vw;
     min-height: 131px;
     min-width: 131px;
 }
@@ -41,13 +39,22 @@ body {
     }
 }
 
-@media(min-width: 700px) {
-    #toggle-left-nav {
-        display: none;
-    }
+#top-nav {
+    padding-left: 5vw;
 }
 
-#toggle-left-nav {
+#navbar-toggler {
+    margin-left: 2vw; 
+    width: auto;
     background-color: transparent;
     border-color: turquoise;
+    box-shadow: turquoise 0px 0px 7px 0px;
+}
+
+#navbar-brand {
+    font-size: 0.75em;
+    padding-left: 5vw;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
 }
