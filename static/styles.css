@@ -9,8 +9,9 @@ body {
 }
 
 .profile-pic {
-    border-radius: 7vw;
+    border-radius: 16vw;
     width: 15vw;
+    height: 14vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
