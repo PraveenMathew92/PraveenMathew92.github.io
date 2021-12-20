@@ -52,7 +52,7 @@ footer {
     height: 3em;
 }
 
-@media (min-height: 800px) and (min-width: 400px){
+@media (min-height: 700px) and (min-width: 400px){
     footer {
         position: fixed;
         bottom: 0vh;
